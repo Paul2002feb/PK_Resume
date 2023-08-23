@@ -49,10 +49,10 @@ export default function Home() {
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 Welcome to my online space! As a skilled developer and student
-                at the University of Virginia, I'm dedicated to turning ideas
+                at the University of Virginia, I&apos;m dedicated to turning ideas
                 into functional and engaging web applications. Here, you can
                 explore my latest projects and articles. So, grab a virtual cup
-                of coffee from your desk, make yourself comfortable, and let's
+                of coffee from your desk, make yourself comfortable, and let&apos;s
                 explore together!
               </p>
               {/* Resume Button  */}

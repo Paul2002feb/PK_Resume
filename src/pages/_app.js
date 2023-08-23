@@ -1,20 +1,18 @@
+import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 import "@/styles/globals.css";
-import { Main } from "next/document";
+import { AnimatePresence } from "framer-motion";
+// pages/_app.js
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
-import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 
-// to use font we have to initialize it
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-mont",
-});
+// If loading a variable font, you don't need to specify the font weight
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-mont" });
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+
   return (
     <>
       <Head>
@@ -22,14 +20,12 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`${montserrat.variable} font-mont bg-light dark:bg-dark w-full min-h-screen`}
+        className={`${montserrat.variable} font-mont  bg-light dark:bg-dark w-full min-h-screen h-full`}
       >
-        {/* the bg-light uses the background light variable in tailwind.config.js */}
-        <NavBar />
-        <AnimatePresence mode="wait">
+        <NavBar/>
+        <AnimatePresence initial={false} mode="wait">
           <Component key={router.asPath} {...pageProps} />
         </AnimatePresence>
-
         <Footer />
       </main>
     </>

@@ -60,24 +60,24 @@ const About = () => {
                 About Me
               </h2>
               <p className="font-medium text-sm">
-                Hey There 👋 I'm Paul! I am currently a student at the
+                Hey There 👋 I&apos&apos;m Paul! I am currently a student at the
                 University of Virginia, majoring in Computer Science and
                 minoring in Technology Entrepreneurship.
               </p>
               <p className="my-4 font-medium text-sm">
-                Ever since I was young, I've been fascinated by the way
+                Ever since I was young, I&apos;ve been fascinated by the way
                 technology impacts our lives, which led me down the rabbit hole
-                of coding, and all things tech. When I'm not knee-deep in lines
-                of code, you'll find me exploring various hobbies that help me
-                unwind and recharge. Whether it's playing soccer and basketball
+                of coding, and all things tech. When I&apos;m not knee-deep in lines
+                of code, you&apos;ll find me exploring various hobbies that help me
+                unwind and recharge. Whether it&apos;s playing soccer and basketball
                 or strumming a tune on my guitar, I love embracing new
                 experiences and broadening my horizons.
               </p>
               <p className="font-medium text-sm">
-                I like to think of myself as the ultimate team player. I'm all
+                I like to think of myself as the ultimate team player. I&apos;m all
                 about good communication, adapting to new situations, and most
-                importantly, making work fun! I'm always down to grab a bite to
-                eat and explore new places. I'm the type of person that can make
+                importantly, making work fun! I&apos;m always down to grab a bite to
+                eat and explore new places. I&apos;m the type of person that can make
                 even the most mundane tasks enjoyable and I always bring a
                 positive attitude to the table.
               </p>
